@@ -16,8 +16,8 @@
     align-items: center;
     font-family: "Trebuchet MS", sans-serif;
     
-  </div>
-</body>
+  
+l</body>
 
 
 
@@ -36,4 +36,4 @@
 <p>unscheduled event</p>
 <p style=" color: red;">MAX 3</p>
 <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406987769892573244/Screenshot_20250818_150115_com.brave.browser.jpg?ex=68a51fb8&is=68a3ce38&hm=b1499df28808833ae69fccc16f829b4cf2ab9fc7e2b8491046f47fa253050366&" alt="Viking fail" width="400">
-
+</div>
