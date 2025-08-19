@@ -1,31 +1,13 @@
+body {
+  margin: 0;
+  height: 100vh;
 
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arctic Vikings</title>
-<style>
-  /* Black + blood red gradient background */
-  body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(135deg, black, darkred, black);
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Trebuchet MS", sans-serif;
+  /* Dark black with blood red gradient */
+  background: linear-gradient(135deg, black, darkred, black);
+  background-size: cover;
+  background-attachment: fixed;
+}
  
-</style>
-</head>
-<body>
-
-<div id="context box">
  <h2 style=" color:dark blue ;">recent events</h2>
 
 
@@ -40,4 +22,4 @@
 <p>unscheduled event</p>
 <p style=" color: red;">MAX 3</p>
 <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406987769892573244/Screenshot_20250818_150115_com.brave.browser.jpg?ex=68a51fb8&is=68a3ce38&hm=b1499df28808833ae69fccc16f829b4cf2ab9fc7e2b8491046f47fa253050366&" alt="Viking fail" width="400">
-</div>
+
