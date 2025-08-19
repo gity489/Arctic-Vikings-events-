@@ -1,3 +1,8 @@
+
+
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -15,13 +20,12 @@
     justify-content: center;
     align-items: center;
     font-family: "Trebuchet MS", sans-serif;
-    
-  
-l</body>
+ 
+</style>
+</head>
+<body>
 
-
-
-
+<div id="context box">
  <h2 style=" color:dark blue ;">recent events</h2>
 
 
