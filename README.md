@@ -23,7 +23,7 @@
 
 <p>Europe event</p>
 <p style=" color: red;">MAX 2</p>
-<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406740170052735028/Screenshot_20250817_224003_com.brave.browser.jpg?ex=68a4e1e0&is=68a39060&hm=db680cc62f959b14bf75b43f6bada11c812142977bfb1e46b2fcfd06bab84fef&" alt="Viking fail" width="400">
+<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406740170052735028/Screenshot_20250817_224003_com.brave.browser.jpg?ex=68a58aa0&is=68a43920&hm=7336cc48a7efe4c170faf2f59725cafbeb852e873a496082f7ef35620aef498f&" alt="Viking fail" width="400">
 
 <p>unscheduled event</p>
 <p style=" color: red;">MAX 3</p>
