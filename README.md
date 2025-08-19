@@ -29,3 +29,6 @@
 <p style=" color: red;">MAX 3</p>
 <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406987769892573244/Screenshot_20250818_150115_com.brave.browser.jpg?ex=68a51fb8&is=68a3ce38&hm=b1499df28808833ae69fccc16f829b4cf2ab9fc7e2b8491046f47fa253050366&" alt="Viking fail" width="400">
 
+<p>ausia/asia event</p>
+<p style=" color: red;">MAX 2</p>
+<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1407457561631920169/Screenshot_20250819_220406_com.brave.browser.jpg?ex=68a62c7f&is=68a4daff&hm=2f899478e43608fb667449b2e3ea61f00fd2f372b65e46213f0b79bcbd799be7&" alt="Viking fail" width="400">
