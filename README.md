@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  height: 100vh;
+<style>
+  body {
+    /* Black background with repeating blue stripes */
+    background: repeating-linear-gradient(
+      45deg,         /* angle of the stripes */
+      black,         /* start color */
+      black 10px,    /* stripe size */
+      white 10px,     /* stripe start */
+      white 20px      /* stripe end */
+    );
 
-  /* Dark black with blood red gradient */
-  background: linear-gradient(135deg, black, darkred, black);
-  background-size: cover;
-  background-attachment: fixed;
-}
- 
+    color: white; /* readable text */
+    font-family: Arial, sans-serif;
+  }
+</style>
+
  <h2 style=" color:dark blue ;">recent events</h2>
 
 
