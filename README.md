@@ -5,8 +5,8 @@
       45deg,         /* angle of the stripes */
       black,         /* start color */
       black 10px,    /* stripe size */
-      white 10px,     /* stripe start */
-      white 20px      /* stripe end */
+      black 10px,     /* stripe start */
+      black 20px      /* stripe end */
     );
 
     color: white; /* readable text */
