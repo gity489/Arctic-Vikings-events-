@@ -14,7 +14,7 @@
   }
 </style>
 
- <h2 style=" color:dark blue ;">recent events</h2>
+ <h2 style=" color:royal blue;">recent events week 1</h2>
 
 
 <p>unscheduled event </p>
