@@ -1,4 +1,4 @@
-<style>
+<style> 
   body {
     /* Black background with repeating blue stripes */
     background: repeating-linear-gradient(
