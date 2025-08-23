@@ -19,16 +19,16 @@
 
 <p>unscheduled event </p>
 <p style=" color: red;">MAX 4</p>
-<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406667382973534369/Screenshot_20250817_174304_com.brave.browser.jpg?ex=68a546d6&is=68a3f556&hm=281b26987c6133d70b5bebc1f2ff8c61706d757b49b4465f7c13f0a19f284921&" alt="Viking fail" width="400">
+<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406667382973534369/Screenshot_20250817_174304_com.brave.browser.jpg?ex=68ab3596&is=68a9e416&hm=09b61e5472e9ef0554d831f8464297c2cb60c6be5fc03755365a61652405d6d6&" alt="Viking fail" width="400">
 
 <p>Europe event</p>
 <p style=" color: red;">MAX 2</p>
-<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406740170052735028/Screenshot_20250817_224003_com.brave.browser.jpg?ex=68a58aa0&is=68a43920&hm=7336cc48a7efe4c170faf2f59725cafbeb852e873a496082f7ef35620aef498f&" alt="Viking fail" width="400">
+<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406740170052735028/Screenshot_20250817_224003_com.brave.browser.jpg?ex=68ab7960&is=68aa27e0&hm=efcbcd2f72d60db42d5aea494c02b294866ef05da9623a6e3966652033dd6dad&" alt="Viking fail" width="400">
 
 <p>unscheduled event</p>
-<p style=" color: red;">MAX 3</p>
-<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406987769892573244/Screenshot_20250818_150115_com.brave.browser.jpg?ex=68a51fb8&is=68a3ce38&hm=b1499df28808833ae69fccc16f829b4cf2ab9fc7e2b8491046f47fa253050366&" alt="Viking fail" width="400">
+<p style=" color: red;">MAX 4</p>
+<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1406987769892573244/Screenshot_20250818_150115_com.brave.browser.jpg?ex=68ab0e78&is=68a9bcf8&hm=f545c59f33bb752b1518fbccdce7f16b3549e0042e9a1b0440c95230c02a4b71&" alt="Viking fail" width="400">
 
 <p>ausia/asia event</p>
 <p style=" color: red;">MAX 2</p>
-<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1407457561631920169/Screenshot_20250819_220406_com.brave.browser.jpg?ex=68a62c7f&is=68a4daff&hm=2f899478e43608fb667449b2e3ea61f00fd2f372b65e46213f0b79bcbd799be7&" alt="Viking fail" width="400">
+<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1407457324389502986/IMG_0926.png?ex=68ab7247&is=68aa20c7&hm=2003b3148a27a6521eaea9254b7f1bb02a5b56a2ca773cf67dbc8661b54fb6ba&" alt="Viking fail" width="400">
