@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
    <style>
@@ -11,13 +11,14 @@
       black 10px,    /* stripe size */
       black 10px,     /* stripe start */
       black 20px      /* stripe end */ margin: 0;
-      padding: 0;
+      padding: 10;
       background: #f2f2f2; /* grey background outside */
       display: flex;
       justify-content: center;
       padding: 30px 0;
       font-family: Arial, sans-serif;
       text-align: center;
+       image-align: center;
     }
     
   </style>
