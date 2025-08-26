@@ -9,8 +9,8 @@
         0deg,         /* angle of the stripes */
         black,         /* start color */
         black 10px,    /* stripe size */
-        black 10px,     /* stripe start */
-        black 20px      /* stripe end */
+        whits 1px,     /* stripe start */
+        white 1px      /* stripe end */
       );
       color: white; 
       font-family: Arial, sans-serif;
@@ -24,9 +24,9 @@
       position: fixed;      /* stays on the side */
       top: 0;
       left: 0;
-      width: 150px;
+      width: 250px;
       height: 100vh;        /* full screen height */
-      background: cyan;
+      background: black;
       border-right: 1px solid #ddd;
       padding: 20px;
       box-shadow: 2px 0 8px rgba(0,0,0,0.1);
