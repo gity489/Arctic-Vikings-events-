@@ -111,6 +111,12 @@
     <p>Asia/Ausia event</p>
     <p style="color: red;">MAX 2</p>
     <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629650510020770/Screenshot_20250825_215301_com.brave.browser.jpg?ex=68ae136a&is=68acc1ea&hm=d9cf62e26e03354f6c196e654faa9cc5c26cf9d7fabafe4a39377996060111f4&" alt="error" width="400">
+
+<p>formation-event</p>  
+<p style="color: red;"> MAX 3<p>
+<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409995914797650071/Screenshot_20250826_221942_com.huawei.himovie.overseas.jpg?ex=68af6886&is=68ae1706&hm=6405630e040d71895d956b7fd6e8f738e62bf31f73993cc66cb111df6ac92042&" alt="error" width="400">
+  
+  
   </div>
 
 </body>
