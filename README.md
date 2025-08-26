@@ -110,7 +110,7 @@
     <h2>Recent Events Week 2</h2>
     <p>Asia/Ausia event</p>
     <p style="color: red;">MAX 2</p>
-    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629650510020770/Screenshot_20250825_215301_com.brave.browser.jpg?ex=68ae136a&is=68acc1ea&hm=d9cf62e26e03354f6c196e654faa9cc5c26cf9d7fabafe4a39377996060111f4&" alt="error" width="400">
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629649998446642/Screenshot_20250825_215427_com.brave.browser.jpg?ex=68af64ea&is=68ae136a&hm=1e25f6cf2272a9ed53b87f417e555d3c5d8a478624df15a1e7ed78e6007368f5& " alt="error" width="400">
 
 <p>formation-event</p>  
 <p style="color: red;"> MAX 3<p>
