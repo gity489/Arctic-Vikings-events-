@@ -11,6 +11,8 @@
 
     color: white; /* readable text */
     font-family: Arial, sans-serif;
+    text-align: center;
+    image-align: center;
   }
 </style>
 
