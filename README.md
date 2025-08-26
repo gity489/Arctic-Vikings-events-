@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>AVK Events</title>
   <style>
     /* Reset & body */
     * {
@@ -11,7 +14,6 @@
       font-family: Arial, sans-serif;
       display: flex;
       color: white;
-      text-align: right;
       background: url('https://cdn.discordapp.com/attachments/1349427999568691271/1409730170197119037/file_00000000f54861f5a19d5d5255e98132.png') no-repeat center center fixed;
       background-size: cover;
     }
@@ -32,46 +34,38 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 220px;
+      width: 200px;          /* <-- change this number to make it smaller/bigger */
       height: 100vh;
-      background: rgba(0,0,0,0.6);
-      backdrop-filter: blur(10px);
+      background: rgba(0,0,0,0.7);
       border-right: 1px solid rgba(255,255,255,0.2);
       padding: 20px;
-      box-shadow: 2px 0 12px rgba(0,0,0,0.3);
-      text-align: right;
     }
 
     .sidebar h2 {
-      margin-top: 0;
-      font-size: 22px;
+      font-size: 18px;
       color: #00bfff;
+      margin-bottom: 15px;
     }
 
     .sidebar a {
       display: block;
-      margin: 10px 0;
+      margin: 12px 0;
       text-decoration: none;
-      color: #ffffff;
+      color: #fff;
       font-weight: bold;
-      transition: all 0.2s ease;
+      transition: 0.2s;
     }
 
     .sidebar a:hover {
-      background: rgba(255,255,255,0.2);
-      color: #00ffff;
+      color: cyan;
       padding-left: 5px;
     }
 
     /* Main content */
     .content {
-      margin-left: 220px;
-      padding: 30px;
-      max-width: calc(100% - 220px);
-      text-align: right;
-      background: rgba(0,0,0,0.3);
-      backdrop-filter: blur(6px);
-      border-radius: 10px;
+      margin-left: 200px;     /* <-- must match sidebar width */
+      padding: 20px;
+      flex: 1;
     }
 
     .content h2 {
@@ -80,16 +74,14 @@
     }
 
     .content p {
-      color: white;
       margin-bottom: 12px;
     }
 
     .content img {
       max-width: 100%;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
       display: block;
-      margin-left: auto;
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -99,7 +91,7 @@
   <div class="sidebar">
     <h2>Navigation</h2>
     <a href="https://smarmyleague.wordpress.com/" target="_blank">SMALL MEDIUM ARMY LEAGUE</a>
-    <a href="https://youtube.com/@arcticvikings?si=D4ylBQh1vhXm7Xrs" target="_blank">YouTube channel</a>
+    <a href="https://youtube.com/@arcticvikings" target="_blank">YouTube channel</a>
     <a href="https://discord.gg/u2E4caAQpX" target="_blank">Discord server</a>
     <a href="https://cpabattleground.com" target="_blank">CPAB (game)</a>
     <a href="https://waddleleague.wordpress.com/" target="_blank">Waddle league</a>
@@ -110,12 +102,12 @@
     <h2>Recent Events Week 2</h2>
     <p>Asia/Ausia event</p>
     <p style="color: red;">MAX 2</p>
-    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629650510020770/Screenshot_20250825_215301_com.brave.browser.jpg" alt="error" width="400">
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629650510020770/Screenshot_20250825_215301_com.brave.browser.jpg" alt="event 1">
 
-    <p>Formation Event</p>  
+    <p>Formation Event</p>
     <p style="color: red;">MAX 3</p>
-    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409995914797650071/Screenshot_20250826_221942_com.huawei.himovie.overseas.jpg" alt="error" width="400">
-  </div>
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409995914797650071/Screenshot_20250826_221942_com.huawei.himovie.overseas.jpg" alt="event 2">
+</div>
 
 </body>
 </html>
