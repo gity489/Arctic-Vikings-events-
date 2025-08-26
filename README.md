@@ -10,7 +10,7 @@
         black,         /* start color */
         black 10px,    /* stripe size */
         black 10px,     /* stripe start */
-        blaxk 20px      /* stripe end */
+        black 20px      /* stripe end */
       );
       color: white; 
       font-family: Arial, sans-serif;
