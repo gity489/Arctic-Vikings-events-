@@ -11,8 +11,8 @@
       font-family: Arial, sans-serif;
       display: flex;
       color: white;
-      text-align: right; /* keep text right-aligned */
-      background: url('https://cdn.discordapp.com/attachments/1349427999568691271/1409730170197119037/file_00000000f54861f5a19d5d5255e98132.png?ex=68ae7108&is=68ad1f88&hm=d0e3be8acf0c1020904d92bff20edf41d75077e9cadf569aa4e51a5141438566&') no-repeat center center fixed;
+      text-align: right;
+      background: url('https://cdn.discordapp.com/attachments/1349427999568691271/1409730170197119037/file_00000000f54861f5a19d5d5255e98132.png') no-repeat center center fixed;
       background-size: cover;
     }
 
@@ -32,14 +32,14 @@
       position: fixed;
       top: 0;
       left: 0;
-      width: 220px; /* slightly smaller */
+      width: 220px;
       height: 100vh;
-      background: rgba(0,0,0,0.6); /* frosted glass effect */
+      background: rgba(0,0,0,0.6);
       backdrop-filter: blur(10px);
       border-right: 1px solid rgba(255,255,255,0.2);
       padding: 20px;
       box-shadow: 2px 0 12px rgba(0,0,0,0.3);
-      text-align: right; /* keep sidebar text right-aligned */
+      text-align: right;
     }
 
     .sidebar h2 {
@@ -65,11 +65,11 @@
 
     /* Main content */
     .content {
-      margin-left: 220px; /* match sidebar width */
+      margin-left: 220px;
       padding: 30px;
       max-width: calc(100% - 220px);
-      text-align: right; /* keep content aligned right */
-      background: rgba(0,0,0,0.3); /* subtle frosted effect for content */
+      text-align: right;
+      background: rgba(0,0,0,0.3);
       backdrop-filter: blur(6px);
       border-radius: 10px;
     }
@@ -89,7 +89,7 @@
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.5);
       display: block;
-      margin-left: auto; /* keep image on the right */
+      margin-left: auto;
     }
   </style>
 </head>
@@ -102,7 +102,7 @@
     <a href="https://youtube.com/@arcticvikings?si=D4ylBQh1vhXm7Xrs" target="_blank">YouTube channel</a>
     <a href="https://discord.gg/u2E4caAQpX" target="_blank">Discord server</a>
     <a href="https://cpabattleground.com" target="_blank">CPAB (game)</a>
-    <a href="https://waddleleague.wordpress.com/" target="_blank">waddle league</a>
+    <a href="https://waddleleague.wordpress.com/" target="_blank">Waddle league</a>
   </div>
 
   <!-- Main content -->
@@ -110,12 +110,12 @@
     <h2>Recent Events Week 2</h2>
     <p>Asia/Ausia event</p>
     <p style="color: red;">MAX 2</p>
-    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629650510020770/Screenshot_20250825_215301_com.brave.browser.jpg?ex=68ae136a&is=68acc1ea&hm=d9cf62e26e03354f6c196e654faa9cc5c26cf9d7fabafe4a39377996060111f4&" alt="error" width="400">
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629650510020770/Screenshot_20250825_215301_com.brave.browser.jpg" alt="error" width="400">
 
-<p>formation-event</p>  
-<p style="color: red;"> MAX 3<p>
-<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409995914797650071/Screenshot_20250826_221942_com.huawei.himovie.overseas.jpg?ex=68af6886&is=68ae1706&hm=6405630e040d71895d956b7fd6e8f738e62bf31f73993cc66cb111df6ac92042&" alt="error" width="400">
-    </div>
+    <p>Formation Event</p>  
+    <p style="color: red;">MAX 3</p>
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409995914797650071/Screenshot_20250826_221942_com.huawei.himovie.overseas.jpg" alt="error" width="400">
+  </div>
 
 </body>
 </html>
