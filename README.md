@@ -3,14 +3,14 @@
 <head>
   <style>
     /* Body styles */
-    body {
+    <body> {
       margin: 0;
       background: repeating-linear-gradient(
-        365deg,         /* angle of the stripes */
+        0deg,         /* angle of the stripes */
         black,         /* start color */
-        blue 10px,    /* stripe size */
+        black 10px,    /* stripe size */
         black 10px,     /* stripe start */
-        blue 20px      /* stripe end */
+        black 20px      /* stripe end */
       );
       color: white; 
       font-family: Arial, sans-serif;
