@@ -14,9 +14,9 @@
       );
       color: white; 
       font-family: Arial, sans-serif;
-      text-align: center;
-      image-align: center;
-      header-align: center;
+      text-align: right;
+      image-align: right;
+      header-align: right;
     }
 
     /* Sidebar styles */
