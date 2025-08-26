@@ -62,10 +62,10 @@
   <!-- Sidebar -->
   <div class="sidebar">
     <h2>Navigation</h2>
-    <a href="https://google.com" target="_blank">Google</a>
-    <a href="https://youtube.com" target="_blank">YouTube</a>
-    <a href="https://github.com" target="_blank">GitHub</a>
-    <a href="https://example.com" target="_blank">Example</a>
+    <a href="https://smarmyleague.wordpress.com/" target="_blank">SMALL MEDIUM ARMY LEAGUE</a>
+    <a href="https://youtube.com/@arcticvikings?si=D4ylBQh1vhXm7Xrs" target="_blank">YouTube channel</a>
+    <a href="https://discord.gg/u2E4caAQpX" target="_blank">discord server</a>
+    <a href="https://cpabattleground.com" target="_blank">cpab(game)</a>
   </div>
 
   <!-- Main content -->
