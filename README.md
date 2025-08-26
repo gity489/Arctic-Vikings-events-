@@ -115,9 +115,7 @@
 <p>formation-event</p>  
 <p style="color: red;"> MAX 3<p>
 <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409995914797650071/Screenshot_20250826_221942_com.huawei.himovie.overseas.jpg?ex=68af6886&is=68ae1706&hm=6405630e040d71895d956b7fd6e8f738e62bf31f73993cc66cb111df6ac92042&" alt="error" width="400">
-  
-  
-  </div>
+    </div>
 
 </body>
 </html>
