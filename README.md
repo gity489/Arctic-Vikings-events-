@@ -1,5 +1,5 @@
 <style> 
-  body {
+  <body> {
 /* Sidebar styles */
 .sidebar {
   position: fixed;      /* stays on the side */
@@ -44,7 +44,7 @@
     image-align: center;
   }
 </style>
-
+</body>
  <h2 style=" color:royal blue;">recent events week 2</h2>
 
 <p>asia/ausia event</p>
