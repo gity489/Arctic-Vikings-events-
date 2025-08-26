@@ -29,7 +29,7 @@
 <h3 style="color: light blue;"> recent events</h3>
 
 
-<p>asia/ausia event</p>
+<p>asia/ausia events week 2</p>
 <p style=" color: red;">MAX 2</p>
 <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629650510020770/Screenshot_20250825_215301_com.brave.browser.jpg?ex=68ae136a&is=68acc1ea&hm=d9cf62e26e03354f6c196e654faa9cc5c26cf9d7fabafe4a39377996060111f4&" alt="error" width="300">
 
