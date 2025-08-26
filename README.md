@@ -1,86 +1,99 @@
-
 <html>
 <head>
   <style>
-    /* Body styles with background image */
-    body {
+    /* Reset & body */
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
       font-family: Arial, sans-serif;
-      color: white;
       display: flex;
-      text-align: center;
-      image-align: center;
-      header-align: center;
-      title-align: center;
-    }
-    
-
-    /* Blurry background using a full-screen div */
-    .background {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url('https://cdn.discordapp.com/attachments/1349427999568691271/1409730170197119037/file_00000000f54861f5a19d5d5255e98132.png?ex=68ae7108&is=68ad1f88&hm=d0e3be8acf0c1020904d92bff20edf41d75077e9cadf569aa4e51a5141438566&');
+      color: white;
+      text-align: right; /* keep text right-aligned */
+      background: url('https://cdn.discordapp.com/attachments/1349427999568691271/1409730170197119037/file_00000000f54861f5a19d5d5255e98132.png?ex=68ae7108&is=68ad1f88&hm=d0e3be8acf0c1020904d92bff20edf41d75077e9cadf569aa4e51a5141438566&') no-repeat center center fixed;
       background-size: cover;
-      background-position: center;
-      filter: blur(8px);  /* this makes it blurry */
-      z-index: -1; /* send behind everything */
     }
 
-    /* Sidebar styles */
+    /* Blurry overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      backdrop-filter: blur(8px);
+      background: rgba(0,0,0,0.4);
+      z-index: -1;
+    }
+
+    /* Sidebar */
     .sidebar {
       position: fixed;
       top: 0;
       left: 0;
-      width: 250px;
+      width: 220px; /* slightly smaller */
       height: 100vh;
-      background: rgba(0,0,0,0.7); /* semi-transparent black */
-      border-right: 1px solid #ddd;
+      background: rgba(0,0,0,0.6); /* frosted glass effect */
+      backdrop-filter: blur(10px);
+      border-right: 1px solid rgba(255,255,255,0.2);
       padding: 20px;
-      box-shadow: 2px 0 8px rgba(0,0,0,0.3);
-      text-align: center;
+      box-shadow: 2px 0 12px rgba(0,0,0,0.3);
+      text-align: right; /* keep sidebar text right-aligned */
     }
 
     .sidebar h2 {
       margin-top: 0;
-      font-size: 25px;
-      color: #fff;
+      font-size: 22px;
+      color: #00bfff;
     }
 
     .sidebar a {
       display: block;
-      margin: 12px 0;
+      margin: 10px 0;
       text-decoration: none;
-      color: #00bfff;
+      color: #ffffff;
       font-weight: bold;
+      transition: all 0.2s ease;
     }
 
     .sidebar a:hover {
-      text-decoration: underline;
+      background: rgba(255,255,255,0.2);
+      color: #00ffff;
+      padding-left: 5px;
     }
 
     /* Main content */
     .content {
-      margin-left: 250px; 
-      padding: 20px;
-      max-width: calc(100% - 250px);
+      margin-left: 220px; /* match sidebar width */
+      padding: 30px;
+      max-width: calc(100% - 220px);
+      text-align: right; /* keep content aligned right */
+      background: rgba(0,0,0,0.3); /* subtle frosted effect for content */
+      backdrop-filter: blur(6px);
+      border-radius: 10px;
     }
 
     .content h2 {
       color: royalblue;
+      margin-bottom: 15px;
     }
 
     .content p {
       color: white;
+      margin-bottom: 12px;
+    }
+
+    .content img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      display: block;
+      margin-left: auto; /* keep image on the right */
     }
   </style>
 </head>
 <body>
-
-  <!-- Blurry background -->
-  <div class="background"></div>
 
   <!-- Sidebar -->
   <div class="sidebar">
