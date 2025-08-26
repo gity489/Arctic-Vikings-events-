@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Wrapper Example</title>
-  <style>
-    body
+   <style>
+   <body>
     {
      /* Black background with repeating blue stripes */
     background: repeating-linear-gradient(
@@ -23,7 +22,7 @@
     
   </style>
 </head>
-<body>
+</style>body>
 
   
 <h3 style="color: light blue;"> recent events</h3>
