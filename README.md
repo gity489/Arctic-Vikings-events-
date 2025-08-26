@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
   <style>
@@ -8,7 +8,12 @@
       font-family: Arial, sans-serif;
       color: white;
       display: flex;
+      text-align: center;
+      image-align: center;
+      header-align: center;
+      title-align: center;
     }
+    
 
     /* Blurry background using a full-screen div */
     .background {
@@ -35,7 +40,7 @@
       border-right: 1px solid #ddd;
       padding: 20px;
       box-shadow: 2px 0 8px rgba(0,0,0,0.3);
-      text-align: left;
+      text-align: center;
     }
 
     .sidebar h2 {
