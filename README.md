@@ -16,6 +16,7 @@
       font-family: Arial, sans-serif;
       text-align: center;
       image-align: center;
+      header-align: center;
     }
 
     /* Sidebar styles */
@@ -23,9 +24,9 @@
       position: fixed;      /* stays on the side */
       top: 0;
       left: 0;
-      width: 220px;
+      width: 150px;
       height: 100vh;        /* full screen height */
-      background: blue;
+      background: cyan;
       border-right: 1px solid #ddd;
       padding: 20px;
       box-shadow: 2px 0 8px rgba(0,0,0,0.1);
@@ -34,7 +35,7 @@
 
     .sidebar h2 {
       margin-top: 0;
-      font-size: 20px;
+      font-size: 25px;
       color: #333;
     }
 
