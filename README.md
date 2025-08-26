@@ -6,11 +6,11 @@
     body {
       margin: 0;
       background: repeating-linear-gradient(
-        45deg,         /* angle of the stripes */
+        365deg,         /* angle of the stripes */
         black,         /* start color */
-        black 10px,    /* stripe size */
+        blue 10px,    /* stripe size */
         black 10px,     /* stripe start */
-        black 20px      /* stripe end */
+        blue 20px      /* stripe end */
       );
       color: white; 
       font-family: Arial, sans-serif;
@@ -25,7 +25,7 @@
       left: 0;
       width: 220px;
       height: 100vh;        /* full screen height */
-      background: white;
+      background: blue;
       border-right: 1px solid #ddd;
       padding: 20px;
       box-shadow: 2px 0 8px rgba(0,0,0,0.1);
