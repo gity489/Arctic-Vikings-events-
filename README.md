@@ -18,20 +18,14 @@
       justify-content: center;
       padding: 30px 0;
       font-family: Arial, sans-serif;
-     .wrapper background: white;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      width: 100%;
-      max-width: 900px; /* how wide the block is */
-    text-align: center;
+      text-align: center;
     }
     
   </style>
 </head>
 <body>
 
-  <div class="wrapper">
+  
 <h3 style="color: light blue;"> recent events</h3>
 
 
