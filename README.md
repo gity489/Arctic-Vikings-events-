@@ -9,12 +9,13 @@
         45deg,         /* angle of the stripes */
         black,         /* start color */
         black 10px,    /* stripe size */
-        blue 10px,     /* stripe start */
-        blue 20px      /* stripe end */
+        black 10px,     /* stripe start */
+        blaxk 20px      /* stripe end */
       );
       color: white; 
       font-family: Arial, sans-serif;
       text-align: center;
+      image-align: center;
     }
 
     /* Sidebar styles */
