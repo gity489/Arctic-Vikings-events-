@@ -2,30 +2,53 @@
 <head>
   <style>
     /* Reset & body */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      color: white;
-      text-align: right; /* keep text right-aligned */
-      background: url('https://cdn.discordapp.com/attachments/1349427999568691271/1409730170197119037/file_00000000f54861f5a19d5d5255e98132.png?ex=68ae7108&is=68ad1f88&hm=d0e3be8acf0c1020904d92bff20edf41d75077e9cadf569aa4e51a5141438566&') no-repeat center center fixed;
-      background-size: cover;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    /* Blurry overlay */
-    body::before {
-      content: '';
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      backdrop-filter: blur(8px);
-      background: rgba(0,0,0,0.4);
-      z-index: -1;
-    }
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  color: white;
+  text-align: right; /* keep text right-aligned */
+  
+  /* Blue icy gradient */
+  background: linear-gradient(135deg, #0a2a43, #0d4f7c, #1e81ce);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Blurry overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  backdrop-filter: blur(6px);
+  background: rgba(0,0,0,0.3);
+  z-index: -1;
+}
+
+/* Ice-like shapes */
+body::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  
+  /* Abstract black icy shards with white wave accents */
+  background: 
+    repeating-radial-gradient(circle at 20% 30%, rgba(0,0,0,0.7) 0, rgba(0,0,0,0.7) 2px, transparent 3px, transparent 80px),
+    repeating-radial-gradient(circle at 70% 60%, rgba(0,0,0,0.8) 0, rgba(0,0,0,0.8) 2px, transparent 3px, transparent 90px),
+    repeating-linear-gradient(45deg, rgba(255,255,255,0.2) 0, rgba(255,255,255,0.2) 2px, transparent 3px, transparent 40px);
+  opacity: 0.5;
+  z-index: -1;
+}
+
 
     /* Sidebar */
     .sidebar {
