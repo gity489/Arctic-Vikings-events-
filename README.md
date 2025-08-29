@@ -1,7 +1,7 @@
 <html>
 <head>
   <style>
-    /* Reset & body */
+/* Reset & body */
 * {
   margin: 0;
   padding: 0;
@@ -11,43 +11,49 @@
 body {
   font-family: Arial, sans-serif;
   display: flex;
+  flex-direction: column;
   color: white;
-  text-align: right; /* keep text right-aligned */
+  text-align: right;
   
-  /* Blue icy gradient */
-  background: linear-gradient(135deg, #0a2a43, #0d4f7c, #1e81ce);
+  /* Arctic ice gradient */
+  background: linear-gradient(180deg, #0a2740, #124e89, #1c7ed6);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  overflow: hidden;
+  min-height: 100vh;
 }
 
-/* Blurry overlay */
+/* Frosty blur overlay */
 body::before {
   content: '';
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
   backdrop-filter: blur(6px);
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 30, 60, 0.45); /* icy dark blue tint */
   z-index: -1;
 }
 
-/* Ice-like shapes */
+/* Arctic ice cracks + snowy waves */
 body::after {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
   
-  /* Abstract black icy shards with white wave accents */
   background: 
-    repeating-radial-gradient(circle at 20% 30%, rgba(0,0,0,0.7) 0, rgba(0,0,0,0.7) 2px, transparent 3px, transparent 80px),
-    repeating-radial-gradient(circle at 70% 60%, rgba(0,0,0,0.8) 0, rgba(0,0,0,0.8) 2px, transparent 3px, transparent 90px),
-    repeating-linear-gradient(45deg, rgba(255,255,255,0.2) 0, rgba(255,255,255,0.2) 2px, transparent 3px, transparent 40px);
-  opacity: 0.5;
+    /* black ice cracks */
+    repeating-linear-gradient(60deg, rgba(0,0,0,0.5) 0px, rgba(0,0,0,0.5) 2px, transparent 3px, transparent 80px),
+    repeating-linear-gradient(-60deg, rgba(0,0,0,0.4) 0px, rgba(0,0,0,0.4) 2px, transparent 3px, transparent 80px),
+    
+    /* white snowy waves */
+    repeating-radial-gradient(circle at 20% 40%, rgba(255,255,255,0.2) 0px, rgba(255,255,255,0.2) 2px, transparent 3px, transparent 100px),
+    repeating-radial-gradient(circle at 80% 70%, rgba(255,255,255,0.15) 0px, rgba(255,255,255,0.15) 2px, transparent 3px, transparent 120px);
+  
+  opacity: 0.55;
   z-index: -1;
 }
+ 
 
 
     /* Sidebar */
