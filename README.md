@@ -108,13 +108,14 @@
   <!-- Main content -->
   <div class="content">
     <h2>Recent Events Week 2</h2>
-    <p>Asia/Ausia event</p>
+ 
+  <p>Asia/Ausia event</p>
     <p style="color: red;">MAX 2</p>
-    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629649998446642/Screenshot_20250825_215427_com.brave.browser.jpg?ex=68af64ea&is=68ae136a&hm=1e25f6cf2272a9ed53b87f417e555d3c5d8a478624df15a1e7ed78e6007368f5& " alt="error" width="400">
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629650510020770/Screenshot_20250825_215301_com.brave.browser.jpg?ex=68b3596a&is=68b207ea&hm=bf9122e6c403b59c05e85be1b264c466215431cb0548d7eaf65d5e7f8eddd6dd&" alt="error" width="400">
 
 <p>formation-event</p>  
 <p style="color: red;"> MAX 3<p>
-<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409995914797650071/Screenshot_20250826_221942_com.huawei.himovie.overseas.jpg?ex=68af6886&is=68ae1706&hm=6405630e040d71895d956b7fd6e8f738e62bf31f73993cc66cb111df6ac92042&" alt="error" width="400">
+<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409995707393380443/Screenshot_2025-08-26_160446.png?ex=68b35cd5&is=68b20b55&hm=03d4471479fe9792a471f612a5291cdd9c3d0efc782434c1d75d71e3410eb6cd&" alt="error" width="400">
 
 <p>Teaching the new how to play</p>
     <p style="color: red;">MAX 2</p>
