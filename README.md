@@ -130,7 +130,6 @@ body::after {
     <a href="https://smarmyleague.wordpress.com/" target="_blank">SMALL MEDIUM ARMY LEAGUE</a>
     <a href="https://youtube.com/@arcticvikings?si=D4ylBQh1vhXm7Xrs" target="_blank">YouTube channel</a>
     <a href="https://discord.gg/u2E4caAQpX" target="_blank">Discord server</a>
-    <a href="https://cpabattleground.com" target="_blank">CPAB (game)</a>
     <a href="https://waddleleague.wordpress.com/" target="_blank">waddle league</a>
   </div>
 
