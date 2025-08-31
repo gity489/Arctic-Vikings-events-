@@ -136,19 +136,11 @@ body::after {
 
   <!-- Main content -->
   <div class="content">
-    <h2>Recent Events Week 2</h2>
+    <h2>Recent Events Week 3</h2>
  
-  <p>Asia/Ausia event</p>
-    <p style="color: red;">MAX 2</p>
-    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409629650510020770/Screenshot_20250825_215301_com.brave.browser.jpg?ex=68b3596a&is=68b207ea&hm=bf9122e6c403b59c05e85be1b264c466215431cb0548d7eaf65d5e7f8eddd6dd&" alt="error" width="400">
-
-<p>formation-event</p>  
-<p style="color: red;"> MAX 3<p>
-<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1409995707393380443/Screenshot_2025-08-26_160446.png?ex=68b35cd5&is=68b20b55&hm=03d4471479fe9792a471f612a5291cdd9c3d0efc782434c1d75d71e3410eb6cd&" alt="error" width="400">
-
-<p>Teaching the new how to play</p>
-    <p style="color: red;">MAX 2</p>
-<img src="https://cdn.discordapp.com/attachments/1405700987422769222/1411102107783659611/Screenshot_20250829_231433_com.brave.browser.jpg?ex=68b36ebf&is=68b21d3f&hm=c036c7144cdbfbb977c4e2a7a93485a6705f724537d299cabcd2862d2f059ecf&" alt="error" width="400">
+  <p>unscheduled event</p>
+    <p style="color: red;">MAX 3</p>
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1411764689993728160/Screenshot_2025-08-31_131402.png?ex=68b5d7d3&is=68b48653&hm=4c5ca2e719ca8b9e3cd6df52c1649e5e3e17e01ca2a1ab57f5f9e5d9c5202349&" alt="error" width="400">
 </div>
   </body>
 </html>
