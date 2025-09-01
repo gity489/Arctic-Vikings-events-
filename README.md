@@ -6,7 +6,7 @@
   <title>Arctic Vikings</title>
 
   <style>
-    /* ====== Theme Vars (edit once, updates everywhere) ====== */
+    /* ====== Theme Vars ====== */
     :root{
       --accent: #00bfff;
       --accent-2: #00ffff;
@@ -20,7 +20,7 @@
       --text: #ffffff;
       --title: royalblue;
       --radius: 12px;
-      --sidebar-w: 240px; /* laptop/desktop sidebar width */
+      --sidebar-w: 240px;
       --pad: 24px;
     }
 
@@ -69,12 +69,11 @@
       width: var(--sidebar-w);
       height: 100vh;
       background: var(--glass);
-      -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
       border-right: 1px solid var(--border);
       box-shadow: 2px 0 12px rgba(0,0,0,.3);
       padding: var(--pad);
-      text-align: right;
+      text-align: center; /* sidebar text centered too */
       overflow-y: auto;
     }
 
@@ -83,12 +82,9 @@
       padding: calc(var(--pad) + 8px);
       max-width: 1200px;
       background: var(--content-glass);
-      -webkit-backdrop-filter: blur(6px);
       backdrop-filter: blur(6px);
       border-radius: var(--radius);
-      /* keep text right like your original */
-      text-align: right;
-      /* center block on large screens */
+      text-align: center; /* center content text */
       margin-right: auto;
     }
 
@@ -109,14 +105,13 @@
       padding: 8px 10px;
       border-radius: 8px;
       transition: transform .15s ease, background .15s ease, color .15s ease;
-      text-align: right;
       word-break: break-word;
     }
     .nav a:hover, .nav a:focus{
       background: rgba(255,255,255,.2);
       color: var(--accent-2);
       outline: none;
-      transform: translateX(4px);
+      transform: translateY(-2px);
     }
 
     /* ====== Content bits ====== */
@@ -127,18 +122,18 @@
     .content p{ margin: 0 0 10px 0; }
     .max-line{ color: red; font-weight: bold; }
 
-    /* Give the image a nice card feel */
+    /* Image card */
     .card-img{
       border-radius: 10px;
       box-shadow: 0 6px 16px rgba(0,0,0,.45);
-      margin-inline-start: auto; /* keep image to the right on wide screens */
+      margin: 20px auto 0 auto;
       width: min(100%, 520px);
     }
 
-    /* ====== Tablet (<= 1024px): top bar instead of sidebar) ====== */
+    /* ====== Tablet (<= 1024px): sidebar becomes top bar ====== */
     @media (max-width: 1024px){
       .sidebar{
-        position: static; /* becomes a block on top */
+        position: static;
         width: 100%;
         height: auto;
         border-right: none;
@@ -155,21 +150,16 @@
       }
       .nav a{ padding: 10px 12px; }
       .content{
-        margin: 0;            /* no left gutter */
-        border-radius: 0;     /* full-bleed card on smaller screens */
-        text-align: right;    /* keep your right alignment */
+        margin: 0;
+        border-radius: 0;
+        text-align: center;
       }
-      .card-img{
-        margin-inline-start: 0;
-        margin-inline: auto;  /* center the image */
-      }
+      .card-img{ margin: 20px auto; }
     }
 
-    /* ====== Mobile (<= 600px): bigger tap targets, readable text ====== */
+    /* ====== Mobile (<= 600px) ====== */
     @media (max-width: 600px){
-      :root{
-        --pad: 18px;
-      }
+      :root{ --pad: 18px; }
       .sidebar h2{ font-size: 18px; }
       .nav a{ padding: 12px 14px; border-radius: 10px; }
       .content{ padding: calc(var(--pad) + 4px); }
@@ -180,7 +170,7 @@
 </head>
 <body>
 
-  <!-- Sidebar / Top bar (responsive) -->
+  <!-- Sidebar / Top bar -->
   <aside class="sidebar">
     <h2 id="navTitle" contenteditable="true">Navigation</h2>
     <nav class="nav">
@@ -200,7 +190,6 @@
     <img
       class="card-img"
       alt="Event screenshot"
-      width="520"
       src="https://cdn.discordapp.com/attachments/1405700987422769222/1411764689993728160/Screenshot_2025-08-31_131402.png?ex=68b5d7d3&is=68b48653&hm=4c5ca2e719ca8b9e3cd6df52c1649e5e3e17e01ca2a1ab57f5f9e5d9c5202349&"
     />
   </main>
@@ -208,20 +197,14 @@
   <!-- Optional: save text edits per-device (localStorage) -->
   <script>
     const ids = ["navTitle","mainTitle","eventText","maxText"];
-
     ids.forEach(id => {
       const el = document.getElementById(id);
       if (!el) return;
-
-      // Load saved value
       const saved = localStorage.getItem(id);
-      if (saved !== null) el.textContent = saved;
-
-      // Save on edit
-      el.addEventListener("input", () => {
-        localStorage.setItem(id, el.textContent);
-      });
+      if(saved!==null) el.textContent = saved;
+      el.addEventListener("input",()=>{ localStorage.setItem(id, el.textContent); });
     });
   </script>
+
 </body>
 </html>
