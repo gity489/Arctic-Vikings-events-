@@ -1,210 +1,152 @@
-
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Arctic Vikings</title>
-
   <style>
-    /* ====== Theme Vars ====== */
-    :root{
-      --accent: #00bfff;
-      --accent-2: #00ffff;
-      --ice-1: #0a2740;
-      --ice-2: #124e89;
-      --ice-3: #1c7ed6;
-      --frost-bg: rgba(0, 30, 60, 0.45);
-      --glass: rgba(0,0,0,0.6);
-      --content-glass: rgba(0,0,0,0.3);
-      --border: rgba(255,255,255,0.2);
-      --text: #ffffff;
-      --title: royalblue;
-      --radius: 12px;
-      --sidebar-w: 240px;
-      --pad: 24px;
+    /* Reset & body */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    /* ====== Reset ====== */
-    *, *::before, *::after { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; }
-    img { max-width: 100%; height: auto; display: block; }
-
-    /* ====== Base ====== */
-    body{
+    body {
       font-family: Arial, sans-serif;
-      color: var(--text);
-      background: linear-gradient(180deg, var(--ice-1), var(--ice-2), var(--ice-3));
+      display: flex;
+      flex-direction: column;
+      color: white;
+      text-align: center; /* center text everywhere */
+      background: linear-gradient(180deg, #0a2740, #124e89, #1c7ed6);
       background-attachment: fixed;
-      min-height: 100vh;
+      background-size: cover;
       position: relative;
+      min-height: 100vh;
     }
 
     /* Frosty blur overlay */
-    body::before{
-      content:'';
-      position: fixed; inset: 0;
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
       backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-      background: var(--frost-bg);
+      background: rgba(0, 30, 60, 0.45);
       z-index: -1;
     }
 
     /* Arctic ice cracks + snowy waves */
-    body::after{
-      content:'';
-      position: fixed; inset: 0;
+    body::after {
+      content: '';
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
       background:
-        repeating-linear-gradient(60deg, rgba(0,0,0,0.5) 0 2px, transparent 3px 80px),
-        repeating-linear-gradient(-60deg, rgba(0,0,0,0.4) 0 2px, transparent 3px 80px),
-        repeating-radial-gradient(circle at 20% 40%, rgba(255,255,255,0.2) 0 2px, transparent 3px 100px),
-        repeating-radial-gradient(circle at 80% 70%, rgba(255,255,255,0.15) 0 2px, transparent 3px 120px);
-      opacity: .55;
+        repeating-linear-gradient(60deg, rgba(0,0,0,0.5) 0px, rgba(0,0,0,0.5) 2px, transparent 3px, transparent 80px),
+        repeating-linear-gradient(-60deg, rgba(0,0,0,0.4) 0px, rgba(0,0,0,0.4) 2px, transparent 3px, transparent 80px),
+        repeating-radial-gradient(circle at 20% 40%, rgba(255,255,255,0.2) 0px, rgba(255,255,255,0.2) 2px, transparent 3px, transparent 100px),
+        repeating-radial-gradient(circle at 80% 70%, rgba(255,255,255,0.15) 0px, rgba(255,255,255,0.15) 2px, transparent 3px, transparent 120px);
+      opacity: 0.55;
       z-index: -1;
     }
 
-    /* ====== Layout ====== */
-    .sidebar{
+    /* Sidebar */
+    .sidebar {
       position: fixed;
-      inset: 0 auto 0 0;
-      width: var(--sidebar-w);
+      top: 0;
+      left: 0;
+      width: 220px;
       height: 100vh;
-      background: var(--glass);
+      background: rgba(0,0,0,0.6);
       backdrop-filter: blur(10px);
-      border-right: 1px solid var(--border);
-      box-shadow: 2px 0 12px rgba(0,0,0,.3);
-      padding: var(--pad);
-      text-align: center; /* sidebar text centered too */
-      overflow-y: auto;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      padding: 20px;
+      box-shadow: 2px 0 12px rgba(0,0,0,0.3);
+      text-align: right;
     }
 
-    .content{
-      margin-left: var(--sidebar-w);
-      padding: calc(var(--pad) + 8px);
-      max-width: 1200px;
-      background: var(--content-glass);
-      backdrop-filter: blur(6px);
-      border-radius: var(--radius);
-      text-align: center; /* center content text */
-      margin-right: auto;
-    }
-
-    /* ====== Sidebar bits ====== */
-    .sidebar h2{
-      margin: 0 0 10px 0;
+    .sidebar h2 {
+      margin-top: 0;
       font-size: 22px;
-      color: var(--accent);
+      color: #00bfff;
     }
-    .nav{
-      display: grid;
-      gap: 8px;
-    }
-    .nav a{
+
+    .sidebar a {
+      display: block;
+      margin: 10px 0;
       text-decoration: none;
-      color: var(--text);
+      color: #ffffff;
       font-weight: bold;
-      padding: 8px 10px;
-      border-radius: 8px;
-      transition: transform .15s ease, background .15s ease, color .15s ease;
-      word-break: break-word;
-    }
-    .nav a:hover, .nav a:focus{
-      background: rgba(255,255,255,.2);
-      color: var(--accent-2);
-      outline: none;
-      transform: translateY(-2px);
+      transition: all 0.2s ease;
     }
 
-    /* ====== Content bits ====== */
-    .content h2{
-      margin: 0 0 12px 0;
-      color: var(--title);
+    .sidebar a:hover {
+      background: rgba(255,255,255,0.2);
+      color: #00ffff;
+      padding-left: 5px;
     }
-    .content p{ margin: 0 0 10px 0; }
-    .max-line{ color: red; font-weight: bold; }
 
-    /* Image card */
-    .card-img{
+    /* Main content */
+    .content {
+      margin-left: 220px;
+      padding: 30px;
+      max-width: calc(100% - 220px);
+      text-align: center; /* center everything */
+      background: rgba(0,0,0,0.3);
+      backdrop-filter: blur(6px);
       border-radius: 10px;
-      box-shadow: 0 6px 16px rgba(0,0,0,.45);
-      margin: 20px auto 0 auto;
-      width: min(100%, 520px);
     }
 
-    /* ====== Tablet (<= 1024px): sidebar becomes top bar ====== */
-    @media (max-width: 1024px){
-      .sidebar{
-        position: static;
+    .content h2 {
+      color: royalblue;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      color: white;
+      margin-bottom: 12px;
+    }
+
+    .content img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      display: block;
+      margin: 0 auto; /* center image */
+    }
+
+    /* Responsive: Mobile */
+    @media (max-width: 768px) {
+      .sidebar {
+        position: relative;
         width: 100%;
         height: auto;
         border-right: none;
-        border-bottom: 1px solid var(--border);
-        box-shadow: none;
-        text-align: center;
-        padding-top: calc(var(--pad) + env(safe-area-inset-top, 0px));
-      }
-      .nav{
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .nav a{ padding: 10px 12px; }
-      .content{
-        margin: 0;
-        border-radius: 0;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
         text-align: center;
       }
-      .card-img{ margin: 20px auto; }
-    }
 
-    /* ====== Mobile (<= 600px) ====== */
-    @media (max-width: 600px){
-      :root{ --pad: 18px; }
-      .sidebar h2{ font-size: 18px; }
-      .nav a{ padding: 12px 14px; border-radius: 10px; }
-      .content{ padding: calc(var(--pad) + 4px); }
-      .content h2{ font-size: 20px; }
-      .content p{ font-size: 16px; line-height: 1.4; }
+      .content {
+        margin-left: 0;
+        max-width: 100%;
+      }
     }
   </style>
 </head>
 <body>
 
-  <!-- Sidebar / Top bar -->
-  <aside class="sidebar">
-    <h2 id="navTitle" contenteditable="true">Navigation</h2>
-    <nav class="nav">
-      <a href="https://smarmyleague.wordpress.com/" target="_blank" rel="noopener">SMALL MEDIUM ARMY LEAGUE</a>
-      <a href="https://youtube.com/@arcticvikings?si=D4ylBQh1vhXm7Xrs" target="_blank" rel="noopener">YouTube channel</a>
-      <a href="https://discord.gg/u2E4caAQpX" target="_blank" rel="noopener">Discord server</a>
-      <a href="https://waddleleague.wordpress.com/" target="_blank" rel="noopener">Waddle League</a>
-    </nav>
-  </aside>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Navigation</h2>
+    <a href="https://smarmyleague.wordpress.com/" target="_blank">SMALL MEDIUM ARMY LEAGUE</a>
+    <a href="https://youtube.com/@arcticvikings?si=D4ylBQh1vhXm7Xrs" target="_blank">YouTube channel</a>
+    <a href="https://discord.gg/u2E4caAQpX" target="_blank">Discord server</a>
+    <a href="https://waddleleague.wordpress.com/" target="_blank">waddle league</a>
+  </div>
 
   <!-- Main content -->
-  <main class="content">
-    <h2 id="mainTitle" contenteditable="true">Recent Events Week 3</h2>
-    <p id="eventText" contenteditable="true">unscheduled event</p>
-    <p id="maxText" class="max-line" contenteditable="true">MAX 3</p>
-
-    <img
-      class="card-img"
-      alt="Event screenshot"
-      src="https://cdn.discordapp.com/attachments/1405700987422769222/1411764689993728160/Screenshot_2025-08-31_131402.png?ex=68b5d7d3&is=68b48653&hm=4c5ca2e719ca8b9e3cd6df52c1649e5e3e17e01ca2a1ab57f5f9e5d9c5202349&"
-    />
-  </main>
-
-  <!-- Optional: save text edits per-device (localStorage) -->
-  <script>
-    const ids = ["navTitle","mainTitle","eventText","maxText"];
-    ids.forEach(id => {
-      const el = document.getElementById(id);
-      if (!el) return;
-      const saved = localStorage.getItem(id);
-      if(saved!==null) el.textContent = saved;
-      el.addEventListener("input",()=>{ localStorage.setItem(id, el.textContent); });
-    });
-  </script>
-
+  <div class="content">
+    <h2>Recent Events Week 3</h2>
+    <p>unscheduled event</p>
+    <p style="color: red;">MAX 3</p>
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1411764689993728160/Screenshot_2025-08-31_131402.png?ex=68b72953&is=68b5d7d3&hm=69dcb4263f388cc7a3187217af525c7ed5114e0d43df0613fba4e891a7153b4a&" alt="event screenshot" width="400">
+  </div>
 </body>
 </html>
