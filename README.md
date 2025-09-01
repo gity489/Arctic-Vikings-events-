@@ -13,7 +13,7 @@
       display: flex;
       flex-direction: column;
       color: white;
-      text-align: center; /* center text everywhere */
+      text-align: center;
       background: linear-gradient(180deg, #0a2740, #124e89, #1c7ed6);
       background-attachment: fixed;
       background-size: cover;
@@ -88,7 +88,7 @@
       margin-left: 220px;
       padding: 30px;
       max-width: calc(100% - 220px);
-      text-align: center; /* center everything */
+      text-align: center;
       background: rgba(0,0,0,0.3);
       backdrop-filter: blur(6px);
       border-radius: 10px;
@@ -109,7 +109,7 @@
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.5);
       display: block;
-      margin: 0 auto; /* center image */
+      margin: 0 auto;
     }
 
     /* Responsive: Mobile */
@@ -144,9 +144,18 @@
   <!-- Main content -->
   <div class="content">
     <h2>Recent Events Week 3</h2>
+
+    <!-- Old Unscheduled Event -->
     <p>unscheduled event</p>
     <p style="color: red;">MAX 3</p>
-    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1411764689993728160/Screenshot_2025-08-31_131402.png?ex=68b72953&is=68b5d7d3&hm=69dcb4263f388cc7a3187217af525c7ed5114e0d43df0613fba4e891a7153b4a&" alt="event screenshot" width="400">
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1411764689993728160/Screenshot_2025-08-31_131402.png?ex=68b72953&is=68b5d7d3&hm=69dcb4263f388cc7a3187217af525c7ed5114e0d43df0613fba4e891a7153b4a&" alt="unscheduled event" width="400">
+
+    <br><br>
+
+    <!-- New US Event -->
+    <p>US event</p>
+    <p style="color: red;">MAX 3</p>
+    <img src="https://cdn.discordapp.com/attachments/1405700987422769222/1412172060909895780/Screenshot_20250901_222441_com.brave.browser.jpg?ex=68b75338&is=68b601b8&hm=0761a32f6f42d76dce1db89074e0317cb8da063cf33b153f5f3d158edb46a558&" alt="US event" width="400">
   </div>
 </body>
 </html>
